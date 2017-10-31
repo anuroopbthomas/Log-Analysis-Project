@@ -40,12 +40,17 @@ arranged
 ## RUNNING THE Program
 To execute the code follow these Directions
 1. Download this code and save it in the VM directory (Note: You only need to download logfinal.py)
-2. Once you are open within the VM and redirected into the same directory as the python program run 'python3 logfinal.py'
+2. Once you are open within the VM and redirected into the same directory as the python program run
+'python3 logfinal.py'
 3. You will get a text result with the correct results! :)
+4. If you prefer to read the results in a text file you can open, results.txt
 
-## NOTE INFORMATION BELOW IS IRRELEVANT BUT
-## IF YOU WISH TO UNDERSTAND THE DATABASE
-## YOU MAY READ THIS
+
+
+
+
+## NOTE INFORMATION BELOW IS IRRELEVANT BUT IF YOU WISH TO UNDERSTAND THE DATABASE YOU MAY READ THIS
+
 ## Tables in 'news' Database
 
 ### articles

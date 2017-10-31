@@ -22,7 +22,7 @@ view2 = """create view error_view as select date(time),
         order by "Percent Error" desc;"""
 
 # Query for the three most popular articles by article name and views
-query1 = "select title, views from article_view limit 3;"
+query1 = "select title, views from autharticle_view limit 3;"
 
 # Query for the three most popular authors by name and views
 query2 = """select authors.name, sum(autharticle_view.views) as views from
