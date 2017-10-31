@@ -71,9 +71,9 @@ def print_query_results(query_result):
 
     query_result will be the results from the function get_query_results
     """
-    print (query_result['title'])
+    print(query_result['title'])
     for result in query_result['results']:
-        print (str(result[0]) + ' --- ' + str(result[1]) + ' views')
+        print(str(result[0]) + ' --- ' + str(result[1]) + ' views')
 
 
 def print_error_results(query_result):
@@ -83,9 +83,9 @@ def print_error_results(query_result):
 
     query_result will be the results from the function get_query_results
     """
-    print (query_result['title'])
+    print(query_result['title'])
     for result in query_result['results']:
-        print (str(result[0]) + ' --- ' + str(result[1]) + ' %')
+        print(str(result[0]) + ' --- ' + str(result[1]) + ' %')
 
 
 # Calls the function get_query_results and stores it within
